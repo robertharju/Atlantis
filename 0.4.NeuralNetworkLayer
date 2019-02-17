@@ -1,0 +1,43 @@
+          Data compression
+
+...of amplitude levels. It is compressed by choosing the nearest matching vector from a set of n-dimensional vectors ector quantization, also called "block quantization" or "pattern matching quantization" is often used in “lossy data compression. 
+It works by encoding values from a multidimensional “vector space” into a finite set of values from a discrete”subspace”
+
+“ of lower dimension. A lower-space vector requires less storage space, so the data is compressed. Due to the density matching property 
+of vector quantization, the compressed data has errors that are inversely proportional to density.
+
+The transformation is usually done by “projection”or by using a “codebook”. In some cases, a codebook can be also used to “entropy code”
+the discrete value in the same step, by generating a “prefix coded” variable-length encoded value as its output.
+
+The set of discrete amplitude levels is quantized jointly rather than each sample being quantized separately. Consider a k-dimensional 
+vector [x1,x2,....,xk] of amplitude levels. It is compressed by choosing the nearest matching vector from a set of 
+n-dimensional vectors [y1,y2,....,yn] with n , k. 
+
+All possible combinations of the n-dimensional vector [y1,y2.....,yn] from the “vector space” to which all the quantized vectors belong.
+
+Only the index of the codeword in the codebook is sent instead of the quantized values. This conserves space and achieves more compression.
+
+Twin vector quantization (VQF) is part of the MPEG-4 standard dealing with time domain weighted interleaved vector quantization.
+
+
+          Graph-based kernel PCA
+          
+Other prominent nonlinear techniques include manifold learning techniques such as Isomap, locally linear embedding (LLE), Hessian LLE, 
+Laplacian eigenmaps, and local tangent space alignment (LTSA). These techniques construct a low-dimensional data representation 
+using a cost function that retains local properties of the data, and can be viewed as defining a graph-based kernel for Kernel PCA.
+
+More recently, techniques have been proposed that, instead of defining a fixed kernel, try to learn the kernel using semidefinite 
+programming. The most prominent example of such a technique is maximum variance unfolding (MVU). The central idea of MVU 
+is to exactly preserve all pairwise distances between nearest neighbors (in the inner product space), while maximizing the distances 
+between points that are not nearest neighbors.
+
+An alternative approach to neighborhood preservation is through the minimization of a cost function that measures differences between 
+distances in the input and output spaces. Important examples of such techniques include: classical multidimensional scaling,
+which is identical to PCA; Isomap, which uses geodesic distances in the data space; diffusion maps, which use diffusion distances 
+in the data space; t-distributed stochastic neighbor embedding (t-SNE), which minimizes the divergence between distributions 
+over pairs of points; and curvilinear component analysis.
+
+A different approach to nonlinear dimensionality reduction is through the use of autoencoders, a special kind of feed-forward 
+neural networks with a bottle-neck hidden layer.[12]The training of deep encoders is typically performed using a greedy 
+layer-wise pre-training (e.g., using a stack of restricted Boltzmann machines) that is followed by a finetuning stage 
+based on “backpropagation”.
