@@ -1,0 +1,6 @@
+          LSH - Locality Sensitive Hashing
+
+*Imagine "Lightning on Steroids".
+
+- Each "similar item" in the block is pressed / stacked together (via sorting algo); prior to the compression step.
+- Allows for quicker storage of items / data via this method. Allows for quicker block building with better acurracy.
