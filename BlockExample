@@ -1,0 +1,41 @@
+In the (photo) diagram, "block 4", I am only trying to convey that multiple nodes from different "chain
+structures"- are needed to compile transmission of data clusters.
+
+Meaning; "n" is the original creation / genesis of block
+
+"A / B (c1)" at time of genesis; considered two or more nodes forming one
+single cluster for storage (BTC chain)
+
+"A / B" becomes "a2 / b2" ; are interlocked/linked chains containing
+identical data, but of differing block size 
+
+(1x1 / 2x2 / 4x4 / 8x8 |
+OR EVEN 1x2 / 2x4 / 4x8).
+
+The size difference is needed due to parsing of data correctly in Tri-Mapping (Stacked Protocol)
+
+"a1 / b1 (x)" are side nodes (one for each internal node / block. This is a type of
+cross check) that have a header file, created from original "A/B (c1)" creation,
+that are pushed ahead (y) of the main chain with only verification of the header
+hash. Instead of keeping it only on the main chain. (*reasoning for this is the
+speed at which it can happen. I will try to explain my theory on how this can
+occur, and why it is needed, on another page.)
+
+"a2 / b2 (c1)" is created, and verified against the "side chain" (a1 / b1 (x)). Once
+this verification happens, the link between "A / B - a1 / b1" is completely
+shreded. This is by packaging in a "wrapper" that can only be decoded by the
+verified header hash in BOTH chains.
+
+"a1/b2(c1) is created on the "y" chain and pushed out, to create the header for
+"c2", ahead of it's actual creation on the main chain.
+
+"a1 / b2(c2) on the main chain" is then created at the same time as the
+shredding(of a1/b1 - x), and pushed forward. This creates "c2" on the main
+chain, for the cross check from "y" chain header (still labeled as a1/b1(c1)).
+
+"a2 / b2(c3)" is created, once the headers from "c2" are verified, and the "y"
+chain data is shredded (and cross-check verified).
+These steps repeat over and over and over. This is where the math theory for HOW this can
+occur comes into play. By utilizing the math processor of MIP Mapping on the
+current gen GPUs, it is 100% possible. This process should, in theory, speed up
+the creation of blocks. From minutes, down to seconds.
