@@ -1,4 +1,4 @@
-The MIP Mapping refers to the process at which an image is compressed, and re-written to be passed
+MIP Mapping refers to the process at which an image is compressed, and re-written to be passed
 on and reprocessed by the next step in the process... ad infinitude. New GPUs can process the 3:1 ratio
 at a faster, more efficient rate. And actually get closer to being a sharper image/resolution.
 
