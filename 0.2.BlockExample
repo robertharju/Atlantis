@@ -1,0 +1,21 @@
+n = creation
+c = cloud / block creation
+a / b = datastore block
+yn = side chain to pass block information to next location
+    *then becomes "y" for all following processes
+"a1-x / b1-x" = sig key from previous.
+    *these are created on header for next step THEN dropped and shredded
+
+
+
+1 - block / cloud created
+
+2 - passed to "b1 / a1" AHEAD of current block to create header in anticipation (on a side chain?), this
+verifies the data from previous step while creating the block to fill.
+
+3 - "c1" contains "a2 / b2"
+
+4 - "c1" then pushes data into "c2"
+
+5 - "c2" merges forward. Once "c1 / c2" that were passed into "y" chain is completed and verified
+against "b1 / a1", "y" is shredded and all data behind it is dropped. *everytime
